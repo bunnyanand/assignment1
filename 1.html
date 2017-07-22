@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{background-image:url(black.jpg);
+     background-size:cover;}
+#out {background-color:#00001a;
+      width:75%;
+	  height:90px;
+	  margin-left:auto;
+	  margin-right:auto;
+	  opacity:0.8;
+	  filter:alphs(opacity=80);
+	  border-radius:15px;}
+ul li{list-style:none;
+       display:inline;
+	   padding:10px;
+	   font-size:150%;
+	   margin-left:1px;
+	   margin-right:1px;
+	 }
+ul li a{text-decoration:none;
+    color:white;
+	text-align:center;
+	padding-bottom:19px;
+       }
+#in {background-color:#ff3300;
+     width:54%;
+	 height :45px;
+	 margin-left:auto;
+	 margin-right:auto;
+	 margin-top:100;
+	 margin-bottom:100;
+	 border-radius:0px 0px 9px 9px;}
+a:hover{border-bottom:3px solid #e6e6e6;
+        transition:all 0.5s
+		opacity:0.9;
+		filter:alpha(opacity=90);
+		transition:all 0.15s;}
+	
+#intro {background-color:#00001a;
+        color:white;
+		opacity:0.5;
+		filter:alpha(opacity=50);
+		font-size:190%;
+		width:50%;
+		margin-left:auto;
+		margin-right:auto;
+		font-family:"Comic Sans MS", cursive, sans-serif;
+		border-radius:10px;
+		position:absolute;
+		top:350px;
+		left:40px;}
+img {border-radius:20px;
+     width:170px;
+	 height:170px;
+	 position:absolute;
+	 left:150px;
+     top:150px;}
+.dot {
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count:160;
+    top:350px;
+    left:40px;}
+
+
+
+
+@keyframes example {
+    0%   {background-color:red; left:40px; top:350px;
+          height:5px;width:5px;}
+    12.5%{width:100px;}
+    25%  {background-color:yellow; left:714px; top:350px; width:5px; height:5px;}
+    37.5% {height:30px;}
+    50%  {background-color:blue; left:714px; top:532px;width:5px;height:5px;}
+    67.5% {width:100px;}
+    75%  {background-color:green; left:40px; top:532px;width:5px; height:5px;}
+    87.5%{height:30px;}
+    100% {background-color:red; left:40px; top:350px;height:5px;width:5px;}
+}	 
+	 
+</style>
+</head>
+<body>
+<div id="out">
+<div id="in">
+<ul>
+<li><a href="1.html">Home<a><li>
+<li><a href="Academics.html">Academic<a><li>
+<li><a href="Interests.html">Interest <a><li>
+<li><a href="Contact.html">Contact<a><li>
+
+</ul>
+</div>
+</div>
+<img src="me.jpg">
+<div class="dot"> </div>
+<div id="intro">
+<p>Hi iam anand.
+ i am an undergraduate student 
+ pursuing electrical engineering at Indian Institute of Technology
+ kharagpur.</p>
+</div>
+</body>
+</html>
